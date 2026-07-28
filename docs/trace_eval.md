@@ -28,9 +28,14 @@ Tính năng tra cứu trạng thái đơn hàng và xử lý yêu cầu đổi/t
 * **Nhận xét**: Chatbot phản hồi an toàn, minh bạch và không tự tạo trạng thái đơn hàng khi chưa có quyền truy cập dữ liệu.
 
 ### 🧠 ReAct Agent:
-* **Thought 1**: Cần tra cứu thời tiết Hà Nội.
-* **Action 1**: `get_weather['Hà Nội']`
-* **Observation 1**: `Thời tiết Hà Nội: 28°C, Nắng nhẹ, Độ ẩm 65%.`
-* **Thought 2**: Đã có thông tin 28°C nắng nhẹ, đưa ra lời khuyên trang phục.
-* **Final Answer**: *"Thời tiết Hà Nội hôm nay 28°C, nắng nhẹ. Bạn nên mặc quần áo thoáng mát!"*
+* **Thought 1**: Người dùng muốn kiểm tra trạng thái đơn hàng ORD-1001 với mã xác minh VC-01. Tôi sẽ sử dụng công cụ get_order_status.
+* **Action 1**: `get_order_status[ORD-1001, VC-01]`
+* **Observation 1**: ` {"code": "ORDER_FOUND", "data": {"delivered_at": "2026-07-25", "items": [{"item_id": "ITEM-01", "name": "Áo thun Basic", "quantity": 1}, {"item_id": "ITEM-02", "name": "Bình nước cá nhân", "quantity": 1}], "order_id": "ORD-1001", "ordered_at": "2026-07-22", "payment_status": "paid", "status": "delivered"}, "message": "Đã tìm thấy đơn hàng.", "ok": true}`
+* **Thought 2**:  Tôi đã có đủ thông tin để trả lời.
+* **Final Answer**: *"Đơn hàng **ORD-1001** của bạn đã được giao thành công vào ngày **25/07/2026**. Trạng thái hiện tại là **delivered** và thanh toán đã hoàn tất. Các sản phẩm trong đơn gồm:
+
+1. **Áo thun Basic** (1 cái) - Mã ITEM-01
+2. **Bình nước cá nhân** (1 cái) - Mã ITEM-02
+
+Bạn cần hỗ trợ thêm về đổi trả hay kiểm tra sản phẩm nào không?"*
 * **Nhận xét**: Hoàn thành xuất sắc nhiệm vụ nhờ sự kết hợp giữa suy luận và công cụ.
