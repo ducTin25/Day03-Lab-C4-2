@@ -1,0 +1,17 @@
+flowchart TD
+    A([Người dùng đặt câu hỏi]) --> B{Phân loại câu hỏi}
+
+    B -->|Câu hỏi đơn giản| C[Chatbot path]
+    B -->|Câu hỏi phức tạp| D[ReAct Agent path]
+
+    C --> C1[Trả lời trực tiếp bằng kiến thức hoặc prompt có sẵn]
+    C1 --> C2([Kết thúc])
+
+    D --> D1[Thought: Xác định việc cần làm]
+    D1 --> D2[Action: Gọi tool phù hợp]
+    D2 --> D3[Observation: Nhận kết quả từ tool]
+    D3 --> D4{Đã đủ thông tin?}
+
+    D4 -->|Chưa| D1
+    D4 -->|Rồi| D5[Final Answer: Trả lời dựa trên Observation]
+    D5 --> D6([Kết thúc])
