@@ -6,12 +6,12 @@
 ## 🎯 1. BẢNG CHẤM ĐIỂM AGENTIC FIT (SCORING MATRIX)
 
 | Tiêu chí | Điểm (1-5) | Lý do đánh giá |
-| :--- | :---: | :--- |
-| 🧠 **Multi-step Reasoning** | `4/5` | Cần suy luận từ tra cứu thời tiết đến chọn trang phục. |
-| 🛠️ **Tool Interaction** | `5/5` | Cần tra cứu dữ liệu thời gian thực qua API thời tiết/chuyến bay. |
-| 🔀 **Dynamic Decision** | `4/5` | Kết quả bước trước quyết định hành động bước sau. |
-| ⏳ **Long Horizon** | `3/5` | Quy trình gồm 2-3 bước xử lý ngắn. |
-| **TỔNG ĐIỂM FIT** | **16/20** | **KẾT LUẬN: BÀI TOÁN RẤT NÊN DÙNG REACT AGENT!** |
+| :--- |:----------:| :--- |
+| 🧠 **Multi-step Reasoning** |   `4/5`    | Cần hiểu yêu cầu, xác định đơn hàng, kiểm tra trạng thái và đối chiếu chính sách đổi trả. |
+| 🛠️ **Tool Interaction** |   `5/5`    | Cần tương tác với hệ thống đơn hàng, vận chuyển, tồn kho, thanh toán và tạo yêu cầu đổi trả. |
+| 🔀 **Dynamic Decision** |   `5/5`    | Kết quả tra cứu quyết định bước tiếp theo: thông báo trạng thái, tạo yêu cầu đổi trả hoặc chuyển nhân viên hỗ trợ. |
+| ⏳ **Long Horizon** |   `3/5`    | Một yêu cầu thường gồm 3–5 bước, nhưng phần lớn được hoàn thành trong một phiên hội thoại. |
+| **TỔNG ĐIỂM FIT** | **17/20**  | **KẾT LUẬN: BÀI TOÁN RẤT NÊN DÙNG REACT AGENT!** |
 
 ---
 
