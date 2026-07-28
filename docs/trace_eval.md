@@ -17,11 +17,15 @@
 
 ## 🔍 2. SO SÁNH PHẢN HỒI (TEST CASE #3)
 
-**Câu hỏi**: *"Thời tiết ở Hà Nội hôm nay thế nào và tôi nên mặc gì đi chơi?"*
+**Câu hỏi**: *" Kiểm tra giúp tôi trạng thái đơn hàng ORD-1001. Mã xác minh của tôi là VC-01"*
 
 ### 🤖 Chatbot Baseline:
-* **Phản hồi**: *"Tôi không có truy cập Internet thời gian thực nên không biết thời tiết hôm nay ở Hà Nội."*
-* **Nhận xét**: An toàn nhưng không giải quyết được nhu cầu thực tế của người dùng.
+* **Phản hồi**: *Chào bạn, cảm ơn bạn đã liên hệ.
+
+Rất tiếc, ở chế độ hiện tại (Baseline - Mốc 2) mình chưa được cấp quyền truy xuất dữ liệu đơn hàng thực tế, vì vậy mình không thể tra cứu trạng thái cụ thể của đơn **ORD-1001** với mã xác minh **VC-01** được ạ.
+
+Tính năng tra cứu trạng thái đơn hàng và xử lý yêu cầu đổi/trả sẽ hoạt động đầy đủ ở phiên bản **ReAct Agent (Mốc 3)**. Bạn vui lòng quay lại sau khi phiên bản này được nâng cấp nhé!"*
+* **Nhận xét**: Chatbot phản hồi an toàn, minh bạch và không tự tạo trạng thái đơn hàng khi chưa có quyền truy cập dữ liệu.
 
 ### 🧠 ReAct Agent:
 * **Thought 1**: Cần tra cứu thời tiết Hà Nội.
