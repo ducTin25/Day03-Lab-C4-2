@@ -469,6 +469,24 @@ def run_react_agent(user_query: str, provider) -> dict[str, Any]:
     }
 
 
+def _print_test_cases(tests: list[dict[str, Any]]) -> None:
+    print("\n📋 TEST CASES")
+    for test in tests:
+        print(f"  {test['id']}. {test['question']}")
+
+
+def _read_mode() -> str:
+    print("\nChọn chế độ:")
+    print("  1. Baseline Chatbot (Mốc 2, không gọi tool)")
+    print("  2. ReAct Agent (Mốc 3, có gọi tool)")
+    print("  3. So sánh Baseline và ReAct")
+    while True:
+        choice = input("Lựa chọn [1/2/3]: ").strip()
+        if choice in {"1", "2", "3"}:
+            return choice
+        print("Vui lòng nhập 1, 2 hoặc 3.")
+
+
 def main() -> None:
     print("=" * 58)
     print("TRỢ LÝ TRA CỨU ĐƠN HÀNG & XỬ LÝ ĐỔI/TRẢ")
@@ -483,13 +501,53 @@ def main() -> None:
 
     tests = load_test_cases()
     print(f"✅ Đã tải {len(tests)} test cases.")
-    sample_query = tests[2]["question"]
+    try:
+        mode = _read_mode()
+        print("\nNhập câu hỏi trực tiếp, hoặc dùng:")
+        print("  /tests       Xem danh sách test case")
+        print("  /test <id>   Chạy một test case, ví dụ: /test 4")
+        print("  /mode        Đổi chế độ")
+        print("  /quit        Thoát")
 
-    print("\n--- DEMO 1: CHATBOT BASELINE ---")
-    run_baseline_chatbot(sample_query, provider)
+        while True:
+            raw_query = input("\nBạn: ").strip()
+            if not raw_query:
+                continue
+            if raw_query.lower() in {"/quit", "quit", "exit"}:
+                print("👋 Đã kết thúc phiên demo.")
+                break
+            if raw_query.lower() == "/tests":
+                _print_test_cases(tests)
+                continue
+            if raw_query.lower() == "/mode":
+                mode = _read_mode()
+                continue
+            if raw_query.lower().startswith("/test "):
+                try:
+                    test_id = int(raw_query.split(maxsplit=1)[1])
+                except ValueError:
+                    print("ID test phải là một số.")
+                    continue
+                selected = next(
+                    (test for test in tests if test.get("id") == test_id),
+                    None,
+                )
+                if selected is None:
+                    print(f"Không tìm thấy test case ID {test_id}.")
+                    continue
+                user_query = selected["question"]
+                print(f"🧪 Test #{test_id}: {user_query}")
+            else:
+                user_query = raw_query
 
-    print("\n--- DEMO 2: REACT AGENT ---")
-    run_react_agent(sample_query, provider)
+            if mode in {"1", "3"}:
+                print("\n--- CHATBOT BASELINE ---")
+                run_baseline_chatbot(user_query, provider)
+            if mode in {"2", "3"}:
+                print("\n--- REACT AGENT ---")
+                run_react_agent(user_query, provider)
+    except (EOFError, KeyboardInterrupt):
+        print("\n👋 Đã kết thúc phiên demo.")
 
 
 if __name__ == "__main__":
