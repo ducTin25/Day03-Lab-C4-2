@@ -1,0 +1,1181 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "verification_code": "VC-01",
+    "status": "delivered",
+    "ordered_at": "2026-07-22",
+    "delivered_at": "2026-07-25",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-01",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-02",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1002",
+    "verification_code": "VC-02",
+    "status": "shipping",
+    "ordered_at": "2026-07-27",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-03",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1003",
+    "verification_code": "VC-03",
+    "status": "delivered",
+    "ordered_at": "2026-06-20",
+    "delivered_at": "2026-06-30",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-04",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1004",
+    "verification_code": "VC-04",
+    "status": "delivered",
+    "ordered_at": "2026-07-23",
+    "delivered_at": "2026-07-26",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-05",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1005",
+    "verification_code": "VC-05",
+    "status": "delivered",
+    "ordered_at": "2026-07-21",
+    "delivered_at": "2026-07-22",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-005-01",
+        "name": "Giày thể thao",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-005-02",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1006",
+    "verification_code": "VC-06",
+    "status": "shipping",
+    "ordered_at": "2026-07-20",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-006-01",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-006-02",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1007",
+    "verification_code": "VC-07",
+    "status": "processing",
+    "ordered_at": "2026-07-19",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-007-01",
+        "name": "Sạc dự phòng",
+        "quantity": 2,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-007-02",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1008",
+    "verification_code": "VC-08",
+    "status": "delivered",
+    "ordered_at": "2026-07-18",
+    "delivered_at": "2026-06-30",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-008-01",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-008-02",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1009",
+    "verification_code": "VC-09",
+    "status": "cancelled",
+    "ordered_at": "2026-07-17",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-009-01",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-009-02",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1010",
+    "verification_code": "VC-10",
+    "status": "delivered",
+    "ordered_at": "2026-07-16",
+    "delivered_at": "2026-07-23",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-010-01",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-010-02",
+        "name": "Chuột không dây",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1011",
+    "verification_code": "VC-11",
+    "status": "shipping",
+    "ordered_at": "2026-07-15",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-011-01",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-011-02",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1012",
+    "verification_code": "VC-12",
+    "status": "processing",
+    "ordered_at": "2026-07-26",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-012-01",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-012-02",
+        "name": "Giày thể thao",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1013",
+    "verification_code": "VC-13",
+    "status": "delivered",
+    "ordered_at": "2026-07-25",
+    "delivered_at": "2026-06-25",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-013-01",
+        "name": "Chuột không dây",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-013-02",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1014",
+    "verification_code": "VC-14",
+    "status": "cancelled",
+    "ordered_at": "2026-07-24",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-014-01",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-014-02",
+        "name": "Sạc dự phòng",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1015",
+    "verification_code": "VC-15",
+    "status": "delivered",
+    "ordered_at": "2026-07-23",
+    "delivered_at": "2026-07-24",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-015-01",
+        "name": "Giày thể thao",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-015-02",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1016",
+    "verification_code": "VC-16",
+    "status": "shipping",
+    "ordered_at": "2026-07-22",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-016-01",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-016-02",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1017",
+    "verification_code": "VC-17",
+    "status": "processing",
+    "ordered_at": "2026-07-21",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-017-01",
+        "name": "Sạc dự phòng",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-017-02",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1018",
+    "verification_code": "VC-18",
+    "status": "delivered",
+    "ordered_at": "2026-07-20",
+    "delivered_at": "2026-07-05",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-018-01",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-018-02",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1019",
+    "verification_code": "VC-19",
+    "status": "cancelled",
+    "ordered_at": "2026-07-19",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-019-01",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-019-02",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1020",
+    "verification_code": "VC-20",
+    "status": "delivered",
+    "ordered_at": "2026-07-18",
+    "delivered_at": "2026-07-25",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-020-01",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-020-02",
+        "name": "Chuột không dây",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1021",
+    "verification_code": "VC-21",
+    "status": "shipping",
+    "ordered_at": "2026-07-17",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-021-01",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 2,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-021-02",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1022",
+    "verification_code": "VC-22",
+    "status": "processing",
+    "ordered_at": "2026-07-16",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-022-01",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-022-02",
+        "name": "Giày thể thao",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1023",
+    "verification_code": "VC-23",
+    "status": "delivered",
+    "ordered_at": "2026-07-15",
+    "delivered_at": "2026-06-30",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-023-01",
+        "name": "Chuột không dây",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-023-02",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1024",
+    "verification_code": "VC-24",
+    "status": "cancelled",
+    "ordered_at": "2026-07-26",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-024-01",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-024-02",
+        "name": "Sạc dự phòng",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1025",
+    "verification_code": "VC-25",
+    "status": "delivered",
+    "ordered_at": "2026-07-25",
+    "delivered_at": "2026-07-26",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-025-01",
+        "name": "Giày thể thao",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-025-02",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1026",
+    "verification_code": "VC-26",
+    "status": "shipping",
+    "ordered_at": "2026-07-24",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-026-01",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-026-02",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1027",
+    "verification_code": "VC-27",
+    "status": "processing",
+    "ordered_at": "2026-07-23",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-027-01",
+        "name": "Sạc dự phòng",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-027-02",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1028",
+    "verification_code": "VC-28",
+    "status": "delivered",
+    "ordered_at": "2026-07-22",
+    "delivered_at": "2026-06-25",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-028-01",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-028-02",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1029",
+    "verification_code": "VC-29",
+    "status": "cancelled",
+    "ordered_at": "2026-07-21",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-029-01",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-029-02",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1030",
+    "verification_code": "VC-30",
+    "status": "delivered",
+    "ordered_at": "2026-07-20",
+    "delivered_at": "2026-07-27",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-030-01",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-030-02",
+        "name": "Chuột không dây",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1031",
+    "verification_code": "VC-31",
+    "status": "shipping",
+    "ordered_at": "2026-07-19",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-031-01",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-031-02",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1032",
+    "verification_code": "VC-32",
+    "status": "processing",
+    "ordered_at": "2026-07-18",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-032-01",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-032-02",
+        "name": "Giày thể thao",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1033",
+    "verification_code": "VC-33",
+    "status": "delivered",
+    "ordered_at": "2026-07-17",
+    "delivered_at": "2026-07-05",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-033-01",
+        "name": "Chuột không dây",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-033-02",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1034",
+    "verification_code": "VC-34",
+    "status": "cancelled",
+    "ordered_at": "2026-07-16",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-034-01",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-034-02",
+        "name": "Sạc dự phòng",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1035",
+    "verification_code": "VC-35",
+    "status": "delivered",
+    "ordered_at": "2026-07-15",
+    "delivered_at": "2026-07-22",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-035-01",
+        "name": "Giày thể thao",
+        "quantity": 2,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-035-02",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1036",
+    "verification_code": "VC-36",
+    "status": "shipping",
+    "ordered_at": "2026-07-26",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-036-01",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-036-02",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1037",
+    "verification_code": "VC-37",
+    "status": "processing",
+    "ordered_at": "2026-07-25",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-037-01",
+        "name": "Sạc dự phòng",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-037-02",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1038",
+    "verification_code": "VC-38",
+    "status": "delivered",
+    "ordered_at": "2026-07-24",
+    "delivered_at": "2026-06-30",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-038-01",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-038-02",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1039",
+    "verification_code": "VC-39",
+    "status": "cancelled",
+    "ordered_at": "2026-07-23",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-039-01",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-039-02",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1040",
+    "verification_code": "VC-40",
+    "status": "delivered",
+    "ordered_at": "2026-07-22",
+    "delivered_at": "2026-07-23",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-040-01",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-040-02",
+        "name": "Chuột không dây",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1041",
+    "verification_code": "VC-41",
+    "status": "shipping",
+    "ordered_at": "2026-07-21",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-041-01",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-041-02",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1042",
+    "verification_code": "VC-42",
+    "status": "processing",
+    "ordered_at": "2026-07-20",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-042-01",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-042-02",
+        "name": "Giày thể thao",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1043",
+    "verification_code": "VC-43",
+    "status": "delivered",
+    "ordered_at": "2026-07-19",
+    "delivered_at": "2026-06-25",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-043-01",
+        "name": "Chuột không dây",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-043-02",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1044",
+    "verification_code": "VC-44",
+    "status": "cancelled",
+    "ordered_at": "2026-07-18",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-044-01",
+        "name": "Balo laptop",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-044-02",
+        "name": "Sạc dự phòng",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1045",
+    "verification_code": "VC-45",
+    "status": "delivered",
+    "ordered_at": "2026-07-17",
+    "delivered_at": "2026-07-24",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-045-01",
+        "name": "Giày thể thao",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-045-02",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1046",
+    "verification_code": "VC-46",
+    "status": "shipping",
+    "ordered_at": "2026-07-16",
+    "delivered_at": null,
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-046-01",
+        "name": "Bình nước cá nhân",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-046-02",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1047",
+    "verification_code": "VC-47",
+    "status": "processing",
+    "ordered_at": "2026-07-15",
+    "delivered_at": null,
+    "payment_status": "pending",
+    "items": [
+      {
+        "item_id": "ITEM-047-01",
+        "name": "Sạc dự phòng",
+        "quantity": 2,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-047-02",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1048",
+    "verification_code": "VC-48",
+    "status": "delivered",
+    "ordered_at": "2026-07-26",
+    "delivered_at": "2026-07-05",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-048-01",
+        "name": "Đèn bàn LED",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-048-02",
+        "name": "Tai nghe Bluetooth",
+        "quantity": 1,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1049",
+    "verification_code": "VC-49",
+    "status": "cancelled",
+    "ordered_at": "2026-07-25",
+    "delivered_at": null,
+    "payment_status": "refunded",
+    "items": [
+      {
+        "item_id": "ITEM-049-01",
+        "name": "Cốc in tên theo yêu cầu",
+        "quantity": 2,
+        "return_policy": "restricted",
+        "return_window_days": 7
+      },
+      {
+        "item_id": "ITEM-049-02",
+        "name": "Bàn phím cơ",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1050",
+    "verification_code": "VC-50",
+    "status": "delivered",
+    "ordered_at": "2026-07-24",
+    "delivered_at": "2026-07-25",
+    "payment_status": "paid",
+    "items": [
+      {
+        "item_id": "ITEM-050-01",
+        "name": "Áo thun Basic",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      },
+      {
+        "item_id": "ITEM-050-02",
+        "name": "Chuột không dây",
+        "quantity": 1,
+        "return_policy": "standard",
+        "return_window_days": 14
+      }
+    ]
+  }
+]
